@@ -51,13 +51,14 @@ void convertTemperature();
 1. Clone the Repository
 
 git clone https://github.com/yourusername/temperature-conversion.git
+
 cd temperature-conversion
 
 
 2. Compile the Program
 
-Use a C++ compiler to compile the program. 
-For example, with g++:
+   Use a C++ compiler to compile the program. 
+   For example, with g++:
 
 g++ -o temp_convert main.cpp
 
@@ -76,7 +77,7 @@ g++ -o temp_convert main.cpp
 
 ## Example
 
-Temperature Conversion Menu:
+`Temperature Conversion Menu:
 1. Fahrenheit to Celsius
 2. Celsius to Fahrenheit
 Enter your choice (1 or 2): 1
@@ -90,7 +91,7 @@ Enter your choice (1 or 2): 2
 Enter temperature in Celsius: 0
 Temperature in Fahrenheit: 32°F
 Do you want to convert another temperature? (y/n): n
-Exiting program. Goodbye!
+Exiting program. Goodbye!`
 
 
 ## Testing
