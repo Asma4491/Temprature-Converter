@@ -40,12 +40,12 @@ void convertTemperature() {
         cout << "Enter temperature in Fahrenheit: ";
         cin >> temperature;
         convertedTemperature = fahrenheitToCelsius(temperature);
-        cout << "Temperature in Celsius: " << convertedTemperature << "°C" << endl;
+        cout << "Temperature in Celsius: " << convertedTemperature << "  Celsius" << endl;
     } else if (conversionChoice == '2') {
         cout << "Enter temperature in Celsius: ";
         cin >> temperature;
         convertedTemperature = celsiusToFahrenheit(temperature);
-        cout << "Temperature in Fahrenheit: " << convertedTemperature << "°F" << endl;
+        cout << "Temperature in Fahrenheit: " << convertedTemperature << "  Fahrenheit" << endl;
     } else {
         cout << "Invalid choice. Please enter 1 or 2." << endl;
     }
