@@ -41,33 +41,32 @@ Parameters:
 void convertTemperature();
 ```
 
-- Handles user interaction, including:
+Handles user interaction, including:
 - Asking for the type of conversion.
 - Taking the input temperature.
 - Calling the appropriate conversion function.
 - Displaying the result.
 
 # Usage
-1. Clone the Repository
+1. **Clone the Repository**
 
-git clone https://github.com/yourusername/temperature-conversion.git
-
+git clone https://github.com/Asma4491/Temprature-Converter.git
 cd temperature-conversion
 
 
-2. Compile the Program
+2. **Compile the Program**
 
    Use a C++ compiler to compile the program. 
    For example, with g++:
 
 g++ -o temp_convert main.cpp
 
-3. Run the Program
+3. **Run the Program**
 
 ./temp_convert
 
 
-4. Follow the On-Screen Instructions
+4. **Follow the On-Screen Instructions**
 
 - Choose the type of conversion.
 - Enter the temperature to convert.
@@ -77,13 +76,16 @@ g++ -o temp_convert main.cpp
 
 ## Example
 
-`Temperature Conversion Menu:
+Temperature Conversion Menu:
+
 1. Fahrenheit to Celsius
 2. Celsius to Fahrenheit
+   
 Enter your choice (1 or 2): 1
 Enter temperature in Fahrenheit: 100
 Temperature in Celsius: 37.7778°C
 Do you want to convert another temperature? (y/n): y
+
 Temperature Conversion Menu:
 1. Fahrenheit to Celsius
 2. Celsius to Fahrenheit
@@ -91,7 +93,8 @@ Enter your choice (1 or 2): 2
 Enter temperature in Celsius: 0
 Temperature in Fahrenheit: 32°F
 Do you want to convert another temperature? (y/n): n
-Exiting program. Goodbye!`
+
+Exiting program. Goodbye!
 
 
 ## Testing
